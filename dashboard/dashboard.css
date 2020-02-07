@@ -12,7 +12,7 @@ body {
 }
 
 .main-content {
-	width: 75vw;
+	width: 65vw;
 	height: 100vh;
 	overflow-y: auto;
 }
@@ -57,7 +57,9 @@ body {
 	bottom: 5px;
 	color: white;
 	font-size: 23px;
-	-webkit-text-stroke: 1px black;
+	/* -webkit-text-stroke: 1px black; */
+	background: rgba(0, 0, 0, 0.5);
+	
 }
 
 

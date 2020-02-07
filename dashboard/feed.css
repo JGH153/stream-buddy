@@ -1,5 +1,76 @@
 .social-feed {
-	width: 25vw;
+	width: 35vw;
 	height: 100vh;
 	background: #2c302d;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.maintitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+
+  text-align: center;
+  font-family: 'arial';
+  color: white;
+	font-size: 34px;
+  font-weight: 700;
+}
+
+.feedline {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 90%; */
+	margin: 5px;
+	color: white;
+	background: black;
+  /* background: white; */
+  /* border: 2px solid red; */
+  /* border-radius: 10px; */
+}
+
+.name {
+    margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  width: 40%;
+  margin: 20px 20px;
+
+}
+
+.profile-picture {
+    margin-right: 10px;
+	border-radius: 100%;
+	overflow: hidden;
+	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;	
+}
+
+.event {
+  display: inline-flex;
+  margin: 0 20px;
+  width: 60%;
+}
+
+.actions {
+  display: inline-flex;
+  margin: 0 20px;
+  float: right;
+}
+
+.join-button {
+  background: red;
+  width: 20%;
+  width: fit-content;
+  color: white;
+  border-radius: 100px;
+  padding: 10px 10px;
+  color: #fff;
+  font-size: 1em;
+  margin: 0 15px;
 }
