@@ -1,0 +1,73 @@
+body {
+  height: 100vh;
+  width: 100wv;
+  background: radial-gradient(#fff, #aaa);
+  font-family: 'arial' ;
+}
+
+.maintitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  color: white;
+  color: red;
+  text-align: center;
+  font-family: 'arial';
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.feedline {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 25px;
+  background: white;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.name {
+    margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  width: 40%;
+  margin: 20px 20px;
+
+}
+
+.profile-picture {
+    margin-right: 10px;
+	border-radius: 100%;
+	overflow: hidden;
+	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;	
+}
+
+.event {
+  display: inline-flex;
+  margin: 0 20px;
+  width: 60%;
+}
+
+.actions {
+  display: inline-flex;
+  margin: 0 20px;
+  float: right;
+}
+
+.join-button {
+  background: red;
+  width: 20%;
+  width: fit-content;
+  color: white;
+  border-radius: 100px;
+  padding: 10px 10px;
+  color: #fff;
+  font-size: 1em;
+  margin: 0 15px;
+}
