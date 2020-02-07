@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    width: 100vw; 
+    background: black;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tools {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pause {
+    color: white;
+
+}
+
+.progress-bar {
+    background: white;
+    width: 90vw;
+    height: 14px;
+    z-index: 2;
+}
+
+.progress {
+    background: #5be4f0;
+    width: 40vw;
+    height: 7.5px;
+    z-index: 4;
+    position: absolute;
+    left: 36px;
+}
+
+.chat {
+    position: absolute; 
+    bottom: 38px;
+    left: 575px;
+    height: 86px;
+    width: 200px;
+    color: white;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji {
+    height: 40px;
+    width: 40px;
+}
+
+.chat-bubble-1 {
+    position: absolute;
+    left: 100px;
+}
+
+.chat-bubble-2 {
+    position: absolute;
+    left: 300px;
+}
+
+.chat-bubble-3 {
+    position: absolute;
+    left: 650px;
+}
+
+.bubble {
+    bottom: 48px;
+    width: 48px;
+    height: 48px;
+    color: white!important;
+}
